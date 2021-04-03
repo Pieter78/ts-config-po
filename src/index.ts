@@ -1,7 +1,6 @@
-let a = 1 + 2
-let b = a + 3
-let c = {
-  apple: a,
-  banana: b,
+'use strict'
+const greet = (name: string) => {
+  console.log(`Hello ${name}!`)
 }
-let d = c.apple + b
+
+greet('Pieter')
